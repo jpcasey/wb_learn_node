@@ -1,25 +1,31 @@
-h1 Hello!
+extends layout
 
-div
-  p My name is Paul.
-  p This is fun.
+block content
+  h1 Hello!
 
-  p What if I have a lot of text to write in one spot?
+  div
+    p My name is Paul.
+    p This is fun.
 
-  ul
-    li One
-    li Two
-    li Three
-  
-  ol
-    li One
-    li Two
-    li Three
-  
-  dl
-    dt One
-    dd This means first.
-    dt Two
-    dd This means second.
-    dt Three
-    dd This means third.
+    p What if I have a lot of text to write in one spot?
+
+    ul
+      li One
+      li Two
+      li Three
+    
+    ol
+      li One
+      li Two
+      li Three
+    
+    dl
+      dt One
+      dd This means first.
+      dt Two
+      dd This means second.
+      dt Three
+      dd This means third.
+
+  p 
+    | Hello, #{name}. I see you are #{age} years old.
